@@ -1,1 +1,2 @@
 Here I add a jupyter notebook that helps me create a plot showing all detected events through time, saving a .png file with the plot where the events are displayed in a scatter plot which size relates to the event magnitude, and the larger events in the catalog are shown as red stars. Date are in datetime format, catalog is in MatchLocate format, magnitude is in MW.
+By default the notebook works with file dets_MAD20.dat, but will add additional .dat files that can help me create the same type of plot for each month or day. 
