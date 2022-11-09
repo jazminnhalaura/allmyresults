@@ -1,0 +1,14 @@
+h = openfig('detseverymin.fig');
+axisHandle = gca
+histHandle = axisHandle.Children
+histdata = histHandle.Data;
+binEdges = histHandle.BinEdges; 
+barheight = histHandle.Values;
+binEdges(end) = [];
+binEdges = binEdges';
+barheight = barheight';
+T = table(binEdges, barheight, 'VariableNames', {'binedges','barheight'});
+writetable(T, 'detseverymin.txt')
+
+
+
