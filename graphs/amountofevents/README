@@ -1,0 +1,5 @@
+Here I present a jupyter notebook that allows me to create a histogram plot from '.txt' data files containing two parameters: binedges and barheight
+
+With this script we can create a histogram showing the amount of seismic detections vs time, date, magnitude, longitude, latitude, depth of the event
+
+This script also allows you to plot the background seismic level for the parameter entered as a comparison and guide to find anomalous values or patterns. 
