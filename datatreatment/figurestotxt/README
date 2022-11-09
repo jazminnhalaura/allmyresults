@@ -1,0 +1,9 @@
+Here I leave a matlab script that alllows me to extract histogram data from a matlab figure (in this case it´s a figure taken from zmap) 
+This script takes two parameters from the histogram figure as:
+
+'binedges' : limits to each bar plot to represent the histogram on the x axis
+'barheight' : height to each bar plot to represent the histogram on the y axis 
+
+This script needs two parameters to be changed such as the name of the '.fig' file, on line 1, and name of the output '.txt' file, on line 11
+
+This script returns a '.txt' file that can be used to create a histogram through a jupyter notebook that can be foun in /allmyresults/graphs/amountofevents/plottimevsamountofdetections.ipynb
